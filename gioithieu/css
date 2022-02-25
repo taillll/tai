@@ -1,0 +1,102 @@
+
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS phần header */
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #24A19c;
+    color: white;
+    line-height: 40px;
+}
+.heading{
+    font-size: 28px;
+    color: #24A19c;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.heading::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: #24A19c;
+}
+
+
+/* CSS Phần Main */
+.main{
+    margin-top: 150px;
+}
+
+.main .images{
+   display: flex;
+   gap: 0 50px;
+   padding: 0 50px;
+}
+.main .images .images-item{
+    position: relative;
+}
+
+.main .images .images-item img{
+    width: 100%;
+}
+
+.main .images .images-item .btn-about{
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    text-decoration: none;
+    color: #24A19c;
+    font-size: 28px;
+    font-weight: bold;
+    border: 4px solid #24A19c;
+    padding: 10px 15px;
+}
+
+.main .images .images-item .btn-about:hover{
+    background: #000;
+}
+footer{
+    width: 100%;
+    background: #24A19c;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 30px 0;
+}
+
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 3px 0;
+}
+
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.baner{
+position:rived;
+top: o;
+right: 0;
+left: 0;
+height: 110px;
+}
+.thongbao{
+  height: 30px;
+  text-align: center;
+  background: #24A19c;width: 100%;
+  color:blue;
+}
+
+.menu-logo .logo{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu-logo .max{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+
+.oplung{
+  text-align: center;
+  color: blue;
+  background: #24A19c;width: 100%;
+  color:blue;
+}
+
+.product .heading{
+  font-size: 20px;
+  color: #160040;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.product .list-product .product-item{
+  width: 22%;
+  display: inline-block;
+}
+
+.product .list-product .product-item img{
+  max-width: 100%;
+}
+
+footer .footer-item{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+footer .footer-item h3{
+  margin: 30px 0;
+ height: 30px;
+ text-align: center;
+ background: #24A19c;width: 100%;
+ color:blue;
+ background-size: 100%;
+}
+
+footer .link a{
+  display: block;
+  text-decoration: none;
+  color:black;
+  margin: 3px 0;
+}
+
+footer{
+  width: 100%;
+  background:#24A19c;
+  color: #fff;
+  text-align: center;
+}
+
+footer .footer-item{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+  margin: 30px 0;
+}
+
+footer .link a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin: 3px 0;
+}
+
+.tacgia{
+  background: #AF2D2D;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.tacgia p{
+  padding-top: 10px;
+}
